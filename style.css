@@ -28,6 +28,7 @@ body{
 }
 .wrapper{
     position: relative;
+    height: 100vh;
 }
 .containerR{
     display: flex;
