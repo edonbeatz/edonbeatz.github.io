@@ -152,7 +152,7 @@ nav{
     position: fixed;
     left: 95%;
     /*bottom: 0;*/
-    bottom: 10px; /* Adjusted value */
+    bottom: 5%; /* Adjusted value */
     z-index: 9999;
 }
 .btnUp:hover{
