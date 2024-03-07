@@ -152,8 +152,7 @@ nav{
     border-radius: 50%;
     position: fixed;
     left: 95%;
-    /*bottom: 0;*/
-    bottom: 5%; /* Adjusted value */
+    bottom: 5%; 
     z-index: 9999;
 }
 .btnUp:hover{
@@ -346,7 +345,7 @@ input[type="submit"]{
         height: 50px;
         width: 50px;
         bottom: 10px;
-        right: 10%;
+        left:80%;
     }
 
     #about-me img{
