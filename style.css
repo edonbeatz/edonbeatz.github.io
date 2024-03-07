@@ -151,7 +151,9 @@ nav{
     border-radius: 50%;
     position: sticky;
     left: 95%;
-    bottom: 0;
+    /*bottom: 0;*/
+    bottom: -20px; /* Adjusted value */
+    z-index: 9999;
 }
 .btnUp:hover{
     cursor: pointer;
