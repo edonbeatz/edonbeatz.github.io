@@ -151,7 +151,7 @@ nav{
     border-radius: 50%;
     position: sticky;
     left: 95%;
-    bottom: 0px;
+    bottom: 0;
 }
 .btnUp:hover{
     cursor: pointer;
@@ -342,7 +342,6 @@ input[type="submit"]{
         padding: 10px;
         height: 50px;
         width: 50px;
-        bottom: 10px;
     }
 
     #about-me img{
