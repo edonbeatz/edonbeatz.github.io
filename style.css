@@ -151,7 +151,7 @@ nav{
     border-radius: 50%;
     position: sticky;
     left: 95%;
-    bottom: 10%;
+    bottom: 0px;
 }
 .btnUp:hover{
     cursor: pointer;
@@ -265,7 +265,7 @@ input[type="submit"]{
 }
 
 /* phones */
-@media screen and (max-width:640px){
+@media screen and (max-width:720px){
     body{
         font-size: 16px;
     }
