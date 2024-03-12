@@ -1,3 +1,4 @@
+// for fade in effect
 document.addEventListener("DOMContentLoaded", function (){
     const sections = document.querySelectorAll('.sect');
 
@@ -15,3 +16,10 @@ document.addEventListener("DOMContentLoaded", function (){
 
     fadeInSections(); //call it once to initially show visible sections
 });
+
+// toggle button
+function toggleMenu(button){
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
+    button.classList.toggle('active');
+}
