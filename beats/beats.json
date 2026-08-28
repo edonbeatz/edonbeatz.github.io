@@ -1,0 +1,104 @@
+[
+  {
+    "id": "EDN-001",
+    "name": "Golden Hour",
+    "slug": "golden-hour",
+    "status": "Draft",
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Soulful Bounce"
+    ],
+    "bpm": 104,
+    "key": "F# Minor",
+    "mood": "Warm / Soulful",
+    "description": "Sample product \u2014 replace with your real beat details.",
+    "preview": "",
+    "artwork": "",
+    "prices": {
+      "mp3": 150,
+      "wav": 250,
+      "trackout": 400,
+      "exclusive": 1500
+    },
+    "delivery": {
+      "mp3": "",
+      "wav": "",
+      "trackout": "",
+      "exclusive": ""
+    },
+    "licenseVersion": "v1",
+    "exclusiveSold": false,
+    "youtube": "",
+    "notes": ""
+  },
+  {
+    "id": "EDN-002",
+    "name": "Night Shift",
+    "slug": "night-shift",
+    "status": "Draft",
+    "featured": true,
+    "genre": "Trap",
+    "tags": [
+      "Melodic Trap",
+      "Dark"
+    ],
+    "bpm": 142,
+    "key": "C Minor",
+    "mood": "Dark / Melodic",
+    "description": "Sample product \u2014 replace with your real beat details.",
+    "preview": "",
+    "artwork": "",
+    "prices": {
+      "mp3": 150,
+      "wav": 250,
+      "trackout": 400,
+      "exclusive": 1500
+    },
+    "delivery": {
+      "mp3": "",
+      "wav": "",
+      "trackout": "",
+      "exclusive": ""
+    },
+    "licenseVersion": "v1",
+    "exclusiveSold": false,
+    "youtube": "",
+    "notes": ""
+  },
+  {
+    "id": "EDN-003",
+    "name": "Pressure",
+    "slug": "pressure",
+    "status": "Draft",
+    "featured": false,
+    "genre": "Hip-Hop",
+    "tags": [
+      "Hard",
+      "Cinematic"
+    ],
+    "bpm": 92,
+    "key": "D Minor",
+    "mood": "Aggressive",
+    "description": "Sample product \u2014 replace with your real beat details.",
+    "preview": "",
+    "artwork": "",
+    "prices": {
+      "mp3": 200,
+      "wav": 300,
+      "trackout": 450,
+      "exclusive": 1800
+    },
+    "delivery": {
+      "mp3": "",
+      "wav": "",
+      "trackout": "",
+      "exclusive": ""
+    },
+    "licenseVersion": "v1",
+    "exclusiveSold": false,
+    "youtube": "",
+    "notes": ""
+  }
+]

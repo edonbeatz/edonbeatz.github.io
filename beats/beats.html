@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Beat Store — Edonbeatz | 20 Studios</title>
+<style>
+:root{--bg:#070707;--panel:#101010;--gold:#f4b400;--text:#f3f1eb;--muted:#92908a;--line:#292929;--max:1220px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:14px Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:auto;padding:0 24px}.topline{height:3px;background:var(--gold)}
+header{position:sticky;top:0;z-index:10;background:rgba(7,7,7,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:2px}.mark{width:34px;height:34px;border:2px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-size:11px}.brand small{display:block;color:#777;font-size:8px;letter-spacing:3px;margin-top:4px}nav{display:flex;gap:22px;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#aaa}nav a:hover,nav .active{color:var(--gold)}.cart{border:1px solid var(--gold);background:none;color:#fff;padding:10px 14px;font-size:10px;text-transform:uppercase;letter-spacing:1px}
+.hero{padding:82px 0 55px;border-bottom:1px solid var(--line);background:radial-gradient(circle at 70% 30%,rgba(244,180,0,.12),transparent 35%)}.eyebrow{color:var(--gold);font-size:10px;font-weight:bold;letter-spacing:3px;text-transform:uppercase;margin:0 0 16px}h1{font:clamp(48px,7vw,86px)/.94 Georgia,serif;margin:0;max-width:850px}.hero p{max-width:650px;color:var(--muted);line-height:1.8;margin:24px 0}.pills{display:flex;gap:9px;flex-wrap:wrap}.pill{border:1px solid var(--line);padding:9px 12px;color:#aaa;font-size:9px;text-transform:uppercase;letter-spacing:1px}
+.toolbar{padding:28px 0;border-bottom:1px solid var(--line);display:flex;gap:10px;flex-wrap:wrap}.search{flex:1;min-width:220px}.search input,select{width:100%;background:var(--panel);border:1px solid var(--line);color:#ddd;padding:14px;outline:0}.search input:focus,select:focus{border-color:var(--gold)}
+.store{padding:48px 0 80px}.status{margin:0 0 20px;color:#777;font-size:10px;text-transform:uppercase;letter-spacing:1.5px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);overflow:hidden;transition:.25s}.card:hover{transform:translateY(-4px);border-color:#6d5514}.art{aspect-ratio:1;position:relative;background:linear-gradient(135deg,#191919,#080808);overflow:hidden;background-size:cover;background-position:center}.art:before{content:"20";position:absolute;right:-12px;bottom:-44px;color:rgba(244,180,0,.07);font:900 180px Georgia}.art:after{content:"EDONBEATZ";position:absolute;left:18px;bottom:15px;color:#aaa;font-size:9px;letter-spacing:3px}.genre{position:absolute;top:15px;left:15px;background:var(--gold);color:#090909;padding:7px 9px;font-size:8px;font-weight:bold;letter-spacing:1px}.featured{position:absolute;top:15px;right:15px;border:1px solid var(--gold);background:#080808;color:var(--gold);padding:6px 8px;font-size:8px;letter-spacing:1px;text-transform:uppercase}.play{position:absolute;inset:0;border:0;background:rgba(0,0,0,.12);color:#fff;font-size:30px;cursor:pointer}.play:hover{color:var(--gold)}.info{padding:18px}.row{display:flex;justify-content:space-between;gap:12px}.title{font:700 22px Georgia,serif}.price{color:var(--gold);font-size:11px;font-weight:bold}.tags{display:flex;gap:8px;flex-wrap:wrap;color:#777;font-size:9px;text-transform:uppercase;letter-spacing:1px;margin:12px 0}.tags span{padding-right:8px;border-right:1px solid #333}.tags span:last-child{border:0}.buyrow{display:flex;gap:8px}.buy,.details{padding:12px;border:1px solid var(--line);font-size:9px;text-transform:uppercase;letter-spacing:1px;cursor:pointer}.buy{flex:1;background:var(--gold);border-color:var(--gold);font-weight:bold}.details{background:none;color:#aaa}.empty{display:none;text-align:center;padding:70px;color:#777}
+.licenses{border-top:1px solid var(--line);padding:75px 0;background:#0a0a0a}.head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:28px}.head h2{font:44px Georgia,serif;margin:0}.head p{max-width:480px;color:#777;line-height:1.7;font-size:13px}.license-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.license{border:1px solid var(--line);padding:24px;background:var(--panel)}.license h3{font-size:12px;letter-spacing:1px;text-transform:uppercase}.cost{font:28px Georgia,serif;color:var(--gold)}.license p,.license li{color:#777;font-size:11px;line-height:1.7}.license ul{padding-left:16px}
+.cta{padding:80px 0;text-align:center;border-top:1px solid var(--line)}.cta h2{font:48px Georgia,serif;margin:0}.cta p{max-width:600px;margin:18px auto 28px;color:#777;line-height:1.7}.btn{display:inline-block;border:1px solid var(--gold);padding:14px 20px;color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:1.5px}
+footer{border-top:1px solid var(--line);padding:28px 0;color:#666;font-size:10px}.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.socials{display:flex;gap:15px;flex-wrap:wrap}.socials a:hover{color:var(--gold)}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:30;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.box{width:min(560px,100%);background:#111;border:1px solid #4a3a12;padding:28px}.box h3{font:30px Georgia,serif;margin:0 0 8px}.box p{color:#888;line-height:1.7;font-size:12px}.close{float:right;border:0;background:none;color:#777;font-size:22px}.choices{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:20px}.choices button{padding:14px 8px;background:#171717;border:1px solid var(--line);color:#ddd;cursor:pointer;font-size:9px;text-transform:uppercase}.choices button:hover{border-color:var(--gold);color:var(--gold)}
+.audio{display:none}
+@media(max-width:900px){nav{display:none}.grid{grid-template-columns:repeat(2,1fr)}.license-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.wrap{padding:0 17px}.nav{height:66px}.hero{padding:60px 0 42px}.grid,.license-grid{grid-template-columns:1fr}.head{display:block}.head h2{font-size:38px}.choices{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header><div class="wrap nav">
+<a class="brand" href="/"><span class="mark">20</span><span>EDONBEATZ<small>20 STUDIOS</small></span></a>
+<nav><a href="/">Home</a><a class="active" href="#beats">Beats</a><a href="#licenses">Licenses</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+<button class="cart" id="cart">Cart <span id="count">0</span></button>
+</div></header>
+<main>
+<section class="hero"><div class="wrap"><p class="eyebrow">20 Studios / Edonbeatz</p><h1>The sound starts here.</h1><p>Original instrumentals built for artists who want authentic, emotional and timeless sounds. Afro bounce, trap, hip-hop, drill, reggae, dancehall, gospel, EDM and more.</p><div class="pills"><span class="pill">Preview before buying</span><span class="pill">MP3 / WAV / Trackouts</span><span class="pill">Paystack checkout ready</span></div></div></section>
+<section id="beats" class="store"><div class="wrap"><div class="toolbar"><div class="search"><input id="search" placeholder="Search beats..."></div><select id="genre"><option value="all">All genres</option></select><select id="sort"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="bpm">BPM</option></select></div><p class="status" id="status">Loading catalog…</p><div class="grid" id="grid"></div><div class="empty" id="empty">No beats match your search.</div></div></section>
+<section id="licenses" class="licenses"><div class="wrap"><div class="head"><div><p class="eyebrow">Choose your license</p><h2>Built for your release.</h2></div><p>These are sample V1 prices. Edit the catalog data when your final licensing and pricing are ready.</p></div><div class="license-grid">
+<article class="license"><h3>MP3 Lease</h3><div class="cost">GH₵150+</div><p>For standard releases and demos.</p><ul><li>MP3 instrumental</li><li>Commercial release</li><li>Basic distribution</li></ul></article>
+<article class="license"><h3>WAV Lease</h3><div class="cost">GH₵250+</div><p>Higher-quality delivery for serious releases.</p><ul><li>High-quality WAV</li><li>Commercial release</li><li>Streaming & video</li></ul></article>
+<article class="license"><h3>Trackout</h3><div class="cost">GH₵400+</div><p>For artists who need more control in the mix.</p><ul><li>WAV stems</li><li>Commercial release</li><li>Flexible mixing</li></ul></article>
+<article class="license"><h3>Exclusive</h3><div class="cost">GH₵1,500+</div><p>For artists who want an exclusive instrumental deal.</p><ul><li>Full delivery package</li><li>Beat removed from store</li><li>Custom agreement</li></ul></article>
+</div></div></section>
+<section id="work" class="cta"><div class="wrap"><p class="eyebrow">Produced by Edonbeatz</p><h2>Hear the work behind the sound.</h2><p>From independent artists to custom media projects, 20 Studios is built around memorable, authentic production.</p><a class="btn" href="/">View Featured Work →</a></div></section>
+<section id="contact" class="cta"><div class="wrap"><p class="eyebrow">Need something custom?</p><h2>Let's build your sound.</h2><p>Need a custom beat, production, mixing or mastering? Start a project with Edonbeatz.</p><a class="btn" href="https://wa.me/233208555478">Chat on WhatsApp</a></div></section>
+</main>
+<footer><div class="wrap footer"><div>© 2026 EDONBEATZ / 20 STUDIOS</div><div class="socials"><a href="https://www.youtube.com/@edonbeatz">YouTube</a><a href="https://soundcloud.com/edonbeatz">SoundCloud</a><a href="https://audiomack.com/edonbeatz">Audiomack</a><a href="https://instagram.com/edonbeatz">Instagram</a><a href="https://wa.me/233208555478">WhatsApp</a></div></div></footer>
+<div class="modal" id="modal"><div class="box"><button class="close" id="close">×</button><p class="eyebrow">Select a license</p><h3 id="modalTitle">Beat</h3><p id="modalMeta"></p><div class="choices" id="choices"></div><p>Checkout will be connected to Paystack after the catalog is finalized.</p></div></div>
+<script>
+/* FALLBACK CATALOG: the page works even if beats.json is not uploaded. */
+const FALLBACK_CATALOG = [{"id": "EDN-001", "name": "Golden Hour", "slug": "golden-hour", "status": "Draft", "featured": false, "genre": "Afro", "tags": ["Afrobeat", "Soulful Bounce"], "bpm": 104, "key": "F# Minor", "mood": "Warm / Soulful", "description": "Sample product — replace with your real beat details.", "preview": "", "artwork": "", "prices": {"mp3": 150, "wav": 250, "trackout": 400, "exclusive": 1500}, "delivery": {"mp3": "", "wav": "", "trackout": "", "exclusive": ""}, "licenseVersion": "v1", "exclusiveSold": false, "youtube": "", "notes": ""}, {"id": "EDN-002", "name": "Night Shift", "slug": "night-shift", "status": "Draft", "featured": true, "genre": "Trap", "tags": ["Melodic Trap", "Dark"], "bpm": 142, "key": "C Minor", "mood": "Dark / Melodic", "description": "Sample product — replace with your real beat details.", "preview": "", "artwork": "", "prices": {"mp3": 150, "wav": 250, "trackout": 400, "exclusive": 1500}, "delivery": {"mp3": "", "wav": "", "trackout": "", "exclusive": ""}, "licenseVersion": "v1", "exclusiveSold": false, "youtube": "", "notes": ""}, {"id": "EDN-003", "name": "Pressure", "slug": "pressure", "status": "Draft", "featured": false, "genre": "Hip-Hop", "tags": ["Hard", "Cinematic"], "bpm": 92, "key": "D Minor", "mood": "Aggressive", "description": "Sample product — replace with your real beat details.", "preview": "", "artwork": "", "prices": {"mp3": 200, "wav": 300, "trackout": 450, "exclusive": 1800}, "delivery": {"mp3": "", "wav": "", "trackout": "", "exclusive": ""}, "licenseVersion": "v1", "exclusiveSold": false, "youtube": "", "notes": ""}];
+let beats = FALLBACK_CATALOG;
+let cart = [];
+const grid=document.getElementById("grid"), search=document.getElementById("search"), genre=document.getElementById("genre"), sort=document.getElementById("sort");
+const empty=document.getElementById("empty"), statusEl=document.getElementById("status"), modal=document.getElementById("modal"), title=document.getElementById("modalTitle"), meta=document.getElementById("modalMeta"), choices=document.getElementById("choices");
+
+async function loadCatalog(){
+  /* Optional override: if beats.json exists beside this file, use it.
+     If it does not exist (common when uploading a single HTML file), fallback data is used. */
+  try {
+    const r=await fetch("beats.json",{cache:"no-store"});
+    if(r.ok){
+      const external=await r.json();
+      if(Array.isArray(external) && external.length) beats=external;
+    }
+  } catch(e) {}
+  setupGenres();
+  render();
+}
+function setupGenres(){
+  const genres=[...new Set(beats.filter(b=>b.status==="Live"||b.status==="Draft").map(b=>b.genre).filter(Boolean))].sort();
+  genre.innerHTML='<option value="all">All genres</option>'+genres.map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join("");
+}
+function visibleBeats(){
+  let q=search.value.toLowerCase().trim(), g=genre.value;
+  let list=beats.filter(b=>b.status==="Live"||b.status==="Draft")
+    .filter(b=>(!q||(b.name+" "+b.genre+" "+(b.tags||[]).join(" ")+" "+(b.mood||"")).toLowerCase().includes(q)))
+    .filter(b=>g==="all"||b.genre===g);
+  if(sort.value==="low")list.sort((a,b)=>(a.prices?.mp3||0)-(b.prices?.mp3||0));
+  if(sort.value==="high")list.sort((a,b)=>(b.prices?.mp3||0)-(a.prices?.mp3||0));
+  if(sort.value==="bpm")list.sort((a,b)=>(a.bpm||0)-(b.bpm||0));
+  if(sort.value==="featured")list.sort((a,b)=>Number(b.featured)-Number(a.featured));
+  return list;
+}
+function render(){
+  const list=visibleBeats();
+  statusEl.textContent=`${list.length} beat${list.length===1?"":"s"} in catalog`;
+  grid.innerHTML=list.map(b=>{
+    const art=b.artwork?`style="background-image:url('${escAttr(b.artwork)}')"`:"";
+    const sold=b.exclusiveSold;
+    return `<article class="card"><div class="art" ${art}><span class="genre">${esc(b.genre)}</span>${b.featured?'<span class="featured">Featured</span>':''}<button class="play" data-play="${escAttr(b.id)}">${b.preview?"▶":"•"}</button></div><div class="info"><div class="row"><div class="title">${esc(b.name)}</div><div class="price">FROM GH₵${Number(b.prices?.mp3||0).toLocaleString()}</div></div><div class="tags">${(b.tags||[]).map(t=>`<span>${esc(t)}</span>`).join("")}<span>${esc(b.bpm)} BPM</span><span>${esc(b.key)}</span></div><div class="buyrow"><button class="buy" data-buy="${escAttr(b.id)}">${sold?"Sold Exclusive":"Choose License"}</button><button class="details" data-buy="${escAttr(b.id)}">Info</button></div></div></article>`;
+  }).join("");
+  empty.style.display=list.length?"none":"block";
+}
+function buy(id){
+  const b=beats.find(x=>x.id===id); if(!b)return;
+  title.textContent=b.name;
+  meta.textContent=`${b.genre||""} · ${(b.tags||[]).join(" / ")} · ${b.bpm||""} BPM · ${b.key||""}`;
+  choices.innerHTML="";
+  [["mp3","MP3 Lease"],["wav","WAV Lease"],["trackout","Trackout"],["exclusive","Exclusive"]].forEach(([key,label])=>{
+    if(key==="exclusive"&&b.exclusiveSold)return;
+    const price=b.prices?.[key]; if(price==null)return;
+    const btn=document.createElement("button");
+    btn.innerHTML=`${label}<br><strong>GH₵${Number(price).toLocaleString()}</strong>`;
+    btn.onclick=()=>addToCart(b.id,key);
+    choices.appendChild(btn);
+  });
+  modal.classList.add("open");
+}
+function addToCart(id,license){
+  const b=beats.find(x=>x.id===id); cart.push({id,license});
+  document.getElementById("count").textContent=cart.length;
+  alert(`${b.name} — ${license.toUpperCase()} added to cart. Paystack checkout will be connected next.`);
+  modal.classList.remove("open");
+}
+function esc(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function escAttr(v){return esc(v)}
+grid.addEventListener("click",e=>{const p=e.target.closest("[data-play]");if(p){const b=beats.find(x=>x.id===p.dataset.play);if(!b.preview){alert("No preview URL has been added to this beat yet.");return}return}const x=e.target.closest("[data-buy]");if(x)buy(x.dataset.buy)});
+[search,genre,sort].forEach(x=>x.addEventListener("input",render));
+document.getElementById("close").onclick=()=>modal.classList.remove("open");
+modal.onclick=e=>{if(e.target===modal)modal.classList.remove("open")};
+loadCatalog();
+</script>
+</body>
+</html>
