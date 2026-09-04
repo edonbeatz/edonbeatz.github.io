@@ -1,43 +1,34 @@
 [
   {
     "id": "EDN-001",
-    "name": "Golden Hour",
-    "slug": "golden-hour",
-    "status": "Draft",
-    "featured": false,
-    "genre": "Afro",
+    "name": "RISK",
+    "slug": "risk",
+    "status": "Live",
+    "featured": true,
+    "genre": "Trap",
     "tags": [
       "Afrobeat",
       "Soulful Bounce"
     ],
-    "bpm": 104,
+    "bpm": 141,
     "key": "F# Minor",
     "mood": "Warm / Soulful",
-    "description": "Sample product \u2014 replace with your real beat details.",
-    "preview": "",
-    "artwork": "",
+    "description": "Warm Afro-inspired bounce with a soulful pocket. Replace this sample listing with your real beat details.",
+    "youtube": "https://youtu.be/F92XsIzfemk",
     "prices": {
       "mp3": 150,
-      "wav": 250,
-      "trackout": 400,
+      "wav": 300,
+      "trackout": 450,
       "exclusive": 1500
     },
-    "delivery": {
-      "mp3": "",
-      "wav": "",
-      "trackout": "",
-      "exclusive": ""
-    },
-    "licenseVersion": "v1",
     "exclusiveSold": false,
-    "youtube": "",
-    "notes": ""
+    "licenseVersion": "v1"
   },
   {
     "id": "EDN-002",
     "name": "Night Shift",
     "slug": "night-shift",
-    "status": "Draft",
+    "status": "Live",
     "featured": true,
     "genre": "Trap",
     "tags": [
@@ -47,31 +38,22 @@
     "bpm": 142,
     "key": "C Minor",
     "mood": "Dark / Melodic",
-    "description": "Sample product \u2014 replace with your real beat details.",
-    "preview": "",
-    "artwork": "",
+    "description": "Dark melodic trap with room for a strong vocal performance. Replace this sample listing with your real beat details.",
+    "youtube": "",
     "prices": {
       "mp3": 150,
-      "wav": 250,
-      "trackout": 400,
+      "wav": 300,
+      "trackout": 450,
       "exclusive": 1500
     },
-    "delivery": {
-      "mp3": "",
-      "wav": "",
-      "trackout": "",
-      "exclusive": ""
-    },
-    "licenseVersion": "v1",
     "exclusiveSold": false,
-    "youtube": "",
-    "notes": ""
+    "licenseVersion": "v1"
   },
   {
     "id": "EDN-003",
     "name": "Pressure",
     "slug": "pressure",
-    "status": "Draft",
+    "status": "Live",
     "featured": false,
     "genre": "Hip-Hop",
     "tags": [
@@ -81,24 +63,15 @@
     "bpm": 92,
     "key": "D Minor",
     "mood": "Aggressive",
-    "description": "Sample product \u2014 replace with your real beat details.",
-    "preview": "",
-    "artwork": "",
+    "description": "Hard, cinematic hip-hop production with a heavy pocket. Replace this sample listing with your real beat details.",
+    "youtube": "",
     "prices": {
       "mp3": 200,
       "wav": 300,
       "trackout": 450,
       "exclusive": 1800
     },
-    "delivery": {
-      "mp3": "",
-      "wav": "",
-      "trackout": "",
-      "exclusive": ""
-    },
-    "licenseVersion": "v1",
     "exclusiveSold": false,
-    "youtube": "",
-    "notes": ""
+    "licenseVersion": "v1"
   }
 ]
