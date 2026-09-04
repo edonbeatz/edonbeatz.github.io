@@ -73,5 +73,30 @@
     },
     "exclusiveSold": false,
     "licenseVersion": "v1"
+  },
+  {
+    "id": "EDN-004",
+    "name": "MY TIME",
+    "slug": "my-time",
+    "status": "Live",
+    "featured": true,
+    "genre": "Hip-Hop",
+    "tags": [
+      "Hard",
+      "Cinematic"
+    ],
+    "bpm": 127,
+    "key": "D Minor",
+    "mood": "Aggressive",
+    "description": "Hard, cinematic hip-hop production with a heavy pocket. Replace this sample listing with your real beat details.",
+    "youtube": "https://youtu.be/3YgBIz_oxdE",
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 450,
+      "exclusive": 1800
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
   }
 ]
