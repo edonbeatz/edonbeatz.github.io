@@ -1,16 +1,24 @@
-# 20 Studios Beat Store — fixed
+# 20 Studios Beat Store — SEO Ready
 
-IMPORTANT: `beats.html` now works by itself. It contains a fallback catalog, so it will NOT show "Catalog could not be loaded" if `beats.json` is missing.
+Deployment structure:
+- /beats/index.html
+- /beats/beats.json
+- /beats/risk/index.html
+- /beats/night-shift/index.html
+- /beats/pressure/index.html
+- /robots.txt
+- /sitemap.xml
 
-Files:
-- beats.html — upload this file and the store will load.
-- beats.json — optional external catalog. If present beside beats.html and valid, it overrides the fallback catalog.
-- README.md
+SEO included:
+- Unique title and meta description
+- Canonical URLs
+- Robots directives
+- Open Graph and Twitter metadata
+- Organization / WebSite / Breadcrumb structured data
+- Individual crawlable beat pages
+- MusicRecording structured data on individual beat pages
+- XML sitemap and robots.txt
+- Crawlable no-JavaScript beat links
+- Existing YouTube Error 153 referrer/origin protections
 
-Recommended deployment:
-1. Put `beats.html` at the desired `/beats/` path.
-2. Put `beats.json` in the SAME directory if you want to edit the catalog separately.
-3. If Netlify only receives beats.html, it still works.
-4. For your real catalog, replace the sample objects in beats.json. The page can continue to use beats.json automatically.
-
-Note: This is still a frontend/catalog layer. Paystack verification and secure MEGA delivery should be added server-side before accepting real orders.
+Keep `beats.json` in the same `/beats/` folder as the Beat Store index. When adding a new beat, update the JSON and create its individual `/beats/<slug>/index.html` page so it can be indexed independently.
