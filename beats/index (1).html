@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Beat Store — Edonbeatz | 20 Studios</title>
+<meta name="description" content="Browse and license original beats by Edonbeatz. Preview on YouTube, choose MP3, WAV, Trackout or Exclusive, and check out securely.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://edonbeatz.netlify.app/beats/">
+<link rel="icon" type="image/webp" href="https://github.com/edonbeatz/Edonbeatz-Blogger-Assets/blob/main/20-studios-icon-256.webp?raw=true">
+<meta property="og:title" content="Beat Store — Edonbeatz | 20 Studios">
+<meta property="og:description" content="Browse and license original beats by Edonbeatz. Preview on YouTube, choose a license, check out securely.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://edonbeatz.netlify.app/beats/">
+<meta property="og:image" content="https://github.com/edonbeatz/Edonbeatz-Blogger-Assets/blob/main/20-studios-social-512.webp?raw=true">
+<meta property="og:site_name" content="20 Studios / Edonbeatz">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{--bg:#070707;--panel:#101010;--gold:#f4b400;--text:#f3f1eb;--muted:#92908a;--line:#292929;--max:1220px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:14px Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:auto;padding:0 24px}.topline{height:3px;background:var(--gold)}
+
+header{position:sticky;top:0;z-index:30;background:rgba(7,7,7,.96);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:2px}
+.mark{width:40px;height:40px;display:flex;align-items:center;justify-content:center}
+.mark img{width:36px;height:26px;object-fit:contain;display:block}
+.brand small{display:block;color:#777;font-size:8px;letter-spacing:3px;margin-top:4px}
+.nav-links{display:flex;gap:22px;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#aaa}
+.nav-links a:hover,.nav-links .active{color:var(--gold)}
+.right{display:flex;align-items:center;gap:12px}
+.cart{border:1px solid var(--gold);background:none;color:#fff;padding:10px 14px;font-size:10px;text-transform:uppercase;letter-spacing:1px;cursor:pointer}
+.menu{display:none;background:none;border:0;color:#fff;font-size:24px;cursor:pointer;line-height:1}
+.mobile-nav{display:none}
+@media(max-width:900px){
+  .nav-links{display:none}
+  .menu{display:block}
+  .mobile-nav{position:absolute;left:0;right:0;top:76px;background:#0c0c0c;border-bottom:1px solid var(--line);padding:10px 20px}
+  .mobile-nav.open{display:block}
+  .mobile-nav a{display:block;padding:13px 0;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#ddd}
+  .mobile-nav a:hover,.mobile-nav a.active{color:var(--gold)}
+}
+
+.hero{padding:82px 0 55px;border-bottom:1px solid var(--line);background:radial-gradient(circle at 70% 30%,rgba(244,180,0,.12),transparent 35%)}.eyebrow{color:var(--gold);font-size:10px;font-weight:bold;letter-spacing:3px;text-transform:uppercase;margin:0 0 16px}h1{font:clamp(48px,7vw,86px)/.94 Georgia,serif;margin:0;max-width:850px}.hero p{max-width:650px;color:var(--muted);line-height:1.8;margin:24px 0}.pills{display:flex;gap:9px;flex-wrap:wrap}.pill{border:1px solid var(--line);padding:9px 12px;color:#aaa;font-size:9px;text-transform:uppercase;letter-spacing:1px}
+
+.toolbar{padding:28px 0;border-bottom:1px solid var(--line);display:flex;gap:10px;flex-wrap:wrap}.search{flex:1;min-width:220px}.search input,select{width:100%;background:var(--panel);border:1px solid var(--line);color:#ddd;padding:14px;outline:0}.search input:focus,select:focus{border-color:var(--gold)}
+
+.store{padding:48px 0 80px}.status{margin:0 0 20px;color:#777;font-size:10px;text-transform:uppercase;letter-spacing:1.5px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);overflow:hidden;transition:.25s}.card:hover{transform:translateY(-4px);border-color:#6d5514}
+.art{aspect-ratio:1;position:relative;background-size:cover;background-position:center;overflow:hidden}
+.art.hasimg:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.55),transparent 55%)}
+.art:not(.hasimg){background:linear-gradient(135deg,#191919,#080808)}
+.art:not(.hasimg):before{content:"20";position:absolute;right:-12px;bottom:-44px;color:rgba(244,180,0,.07);font:900 180px Georgia}
+.tag{position:absolute;top:15px;left:15px;background:var(--gold);color:#090909;padding:7px 9px;font-size:8px;font-weight:bold;letter-spacing:1px;z-index:2}
+.featured{position:absolute;top:15px;right:15px;border:1px solid var(--gold);background:#080808;color:var(--gold);padding:6px 8px;font-size:8px;letter-spacing:1px;text-transform:uppercase;z-index:2}
+.play{position:absolute;inset:0;border:0;background:rgba(0,0,0,.12);color:#fff;font-size:30px;cursor:pointer;z-index:2}.play:hover{color:var(--gold)}
+.work-name-strip{position:absolute;left:18px;bottom:15px;color:#eee;font-size:9px;letter-spacing:3px;text-transform:uppercase;z-index:2}
+.details{padding:18px}.row{display:flex;justify-content:space-between;gap:12px}.title{font:700 22px Georgia,serif}.from{color:var(--gold);font-size:11px;font-weight:bold;white-space:nowrap}
+.meta{display:flex;gap:8px;flex-wrap:wrap;color:#777;font-size:9px;text-transform:uppercase;letter-spacing:1px;margin:12px 0}.meta span{padding-right:8px;border-right:1px solid #333}.meta span:last-child{border:0}
+.desc{color:#8b8b85;font-size:11px;line-height:1.6;margin:0 0 14px}
+.cardactions{display:flex;gap:8px}.cardactions button{padding:12px;border:1px solid var(--line);font-size:9px;text-transform:uppercase;letter-spacing:1px;cursor:pointer;background:none;color:#aaa}.choose{flex:1;background:var(--gold)!important;border-color:var(--gold)!important;color:#090909!important;font-weight:bold}
+.empty{display:none;text-align:center;padding:70px;color:#777}
+
+.licenses{border-top:1px solid var(--line);padding:75px 0;background:#0a0a0a}.head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:28px}.head h2{font:44px Georgia,serif;margin:0}.head p{max-width:480px;color:#777;line-height:1.7;font-size:13px}.license-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.license{border:1px solid var(--line);padding:24px;background:var(--panel)}.license h3{font-size:12px;letter-spacing:1px;text-transform:uppercase}.cost{font:28px Georgia,serif;color:var(--gold)}.license p,.license li{color:#777;font-size:11px;line-height:1.7}.license ul{padding-left:16px}
+
+.cta{padding:80px 0;text-align:center;border-top:1px solid var(--line)}.cta h2{font:48px Georgia,serif;margin:0}.cta p{max-width:600px;margin:18px auto 28px;color:#777;line-height:1.7}.btn{display:inline-block;border:1px solid var(--gold);padding:14px 20px;color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:1.5px}
+
+footer{border-top:1px solid var(--line);padding:28px 0;color:#666;font-size:10px}.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.socials{display:flex;gap:15px;flex-wrap:wrap}.socials a:hover{color:var(--gold)}
+
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:40;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.box{width:min(640px,100%);max-height:90vh;overflow:auto;background:#111;border:1px solid #4a3a12;padding:28px}.box h3{font:30px Georgia,serif;margin:0 0 8px}.box p{color:#888;line-height:1.7;font-size:12px}.close{float:right;border:0;background:none;color:#777;font-size:22px;cursor:pointer}
+.video-wrap{margin-top:16px;aspect-ratio:16/9;background:#000;border:1px solid var(--line)}.video-wrap iframe{width:100%;height:100%;border:0;display:block}.video-empty{display:flex;align-items:center;justify-content:center;height:100%;color:#666;font-size:11px;text-transform:uppercase;letter-spacing:1px}
+.choices{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:20px}.choices button{padding:14px 8px;background:#171717;border:1px solid var(--line);color:#ddd;cursor:pointer;font-size:9px;text-transform:uppercase}.choices button:hover{border-color:var(--gold);color:var(--gold)}
+
+.cart-panel{position:fixed;top:0;right:-380px;width:360px;max-width:90vw;height:100%;background:#0d0d0d;border-left:1px solid var(--line);z-index:50;transition:.3s;padding:26px;overflow:auto}
+.cart-panel.open{right:0}
+.carthead{display:flex;justify-content:space-between;align-items:start;margin-bottom:20px}
+.cartitem{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding:12px 0;font-size:12px}
+.cartitem small{color:#777}
+.remove{background:none;border:0;color:#777;font-size:9px;text-transform:uppercase;cursor:pointer}
+.total{display:flex;justify-content:space-between;font:20px Georgia,serif;color:var(--gold);border-top:1px solid var(--line);padding-top:14px;margin:14px 0}
+.checkout{width:100%;background:var(--gold);border:0;color:#090909;font-weight:bold;padding:14px;text-transform:uppercase;letter-spacing:1px;cursor:pointer;font-size:11px}
+.notice{font-size:10px;color:#777;line-height:1.6;margin-top:12px}
+
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.license-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.wrap{padding:0 17px}.nav{height:66px}.mobile-nav{top:66px}.hero{padding:60px 0 42px}.grid,.license-grid{grid-template-columns:1fr}.head{display:block}.head h2{font-size:38px}.choices{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header><div class="wrap nav">
+<a class="brand" href="/"><span class="mark"><img src="https://github.com/edonbeatz/Edonbeatz-Blogger-Assets/blob/main/20-studios-icon-256.webp?raw=true" alt="20 Studios logo" width="36" height="26"></span><span>EDONBEATZ<small>20 STUDIOS</small></span></a>
+<nav class="nav-links"><a href="/">Home</a><a class="active" href="#beats">Beats</a><a href="#licenses">Licenses</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+<div class="right"><button class="cart" id="cartToggle">Cart <span id="cartCount">0</span></button><button class="menu" id="menu" aria-label="Menu" aria-expanded="false">&#9776;</button></div>
+</div>
+<div class="mobile-nav" id="mobileNav"><a href="/">Home</a><a class="active" href="#beats">Beats</a><a href="#licenses">Licenses</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
+</header>
+<main>
+<section class="hero"><div class="wrap"><p class="eyebrow">20 Studios / Edonbeatz</p><h1>The sound starts here.</h1><p>Original instrumentals built for artists who want authentic, emotional and timeless sounds. Afro bounce, trap, hip-hop, drill, reggae, dancehall, gospel, EDM and more.</p><div class="pills"><span class="pill">Preview on YouTube</span><span class="pill">MP3 / WAV / Trackouts</span><span class="pill">Paystack checkout ready</span></div></div></section>
+
+<section id="beats" class="store"><div class="wrap">
+<div class="toolbar"><div class="search"><input id="search" placeholder="Search beats..."></div><select id="genre"><option value="all">All Genres</option></select><select id="sort"><option value="newest">Newest</option><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="bpm">BPM</option></select></div>
+<p class="status" id="countText">Loading catalog…</p>
+<div class="grid" id="grid"></div>
+<div class="empty" id="empty">No beats match your search.</div>
+</div></section>
+
+<section id="licenses" class="licenses"><div class="wrap"><div class="head"><div><p class="eyebrow">Choose your license</p><h2>Built for your release.</h2></div><p>These are sample V1 prices. Edit the catalog data when your final licensing and pricing are ready.</p></div><div class="license-grid">
+<article class="license"><h3>MP3 Lease</h3><div class="cost">GH₵150+</div><p>For standard releases and demos.</p><ul><li>MP3 instrumental</li><li>Commercial release</li><li>Basic distribution</li></ul></article>
+<article class="license"><h3>WAV Lease</h3><div class="cost">GH₵250+</div><p>Higher-quality delivery for serious releases.</p><ul><li>High-quality WAV</li><li>Commercial release</li><li>Streaming & video</li></ul></article>
+<article class="license"><h3>Trackout</h3><div class="cost">GH₵400+</div><p>For artists who need more control in the mix.</p><ul><li>WAV stems</li><li>Commercial release</li><li>Flexible mixing</li></ul></article>
+<article class="license"><h3>Exclusive</h3><div class="cost">GH₵1,500+</div><p>For artists who want an exclusive instrumental deal.</p><ul><li>Full delivery package</li><li>Beat removed from store</li><li>Custom agreement</li></ul></article>
+</div></div></section>
+
+<section id="work" class="cta"><div class="wrap"><p class="eyebrow">Produced by Edonbeatz</p><h2>Hear the work behind the sound.</h2><p>From independent artists to custom media projects, 20 Studios is built around memorable, authentic production.</p><a class="btn" href="/">View Featured Work &rarr;</a></div></section>
+<section id="contact" class="cta"><div class="wrap"><p class="eyebrow">Need something custom?</p><h2>Let's build your sound.</h2><p>Need a custom beat, production, mixing or mastering? Start a project with Edonbeatz.</p><a class="btn" href="https://wa.me/233208555478" target="_blank" rel="noopener">Chat on WhatsApp</a></div></section>
+</main>
+<footer><div class="wrap footer"><div>&copy; 2026 EDONBEATZ / 20 STUDIOS</div><div class="socials"><a href="https://www.youtube.com/@edonbeatz" target="_blank">YouTube</a><a href="https://soundcloud.com/edonbeatz" target="_blank">SoundCloud</a><a href="https://audiomack.com/edonbeatz" target="_blank">Audiomack</a><a href="https://instagram.com/edonbeatz" target="_blank">Instagram</a><a href="https://wa.me/233208555478" target="_blank">WhatsApp</a></div></div></footer>
+
+<div class="modal" id="modal"><div class="box"><button class="close" id="close">&times;</button><p class="eyebrow">Select a license</p><h3 id="modalTitle">Beat</h3><p id="modalMeta"></p><div class="video-wrap" id="videoWrap"></div><div class="choices" id="choices"></div><p class="notice">Checkout will be connected to Paystack after the catalog is finalized.</p></div></div>
+
+<aside class="cart-panel" id="cartPanel"><div class="carthead"><div><p class="eyebrow">Your selection</p><h2 style="font:26px Georgia,serif;margin:0">Cart</h2></div><button class="close" id="cartClose">&times;</button></div><div id="cartItems"></div><div class="total"><span>Total</span><span id="total">GH₵0</span></div><button class="checkout" id="checkout">Continue to Paystack</button><p class="notice">Payment verification and MEGA delivery are added server-side once the catalog is finalized. Never put the Paystack secret key in this page.</p></aside>
+
+<script>
+const EMBEDDED_CATALOG=[{"id":"EDN-001","name":"RISK","slug":"risk","status":"Live","featured":true,"genre":"Trap","tags":["Afrobeat","Soulful Bounce"],"bpm":141,"key":"F# Minor","mood":"Warm / Soulful","description":"Warm Afro-inspired bounce with a soulful pocket. Replace this sample listing with your real beat details.","youtube":"https://youtu.be/F92XsIzfemk","prices":{"mp3":150,"wav":300,"trackout":450,"exclusive":1500},"exclusiveSold":false,"licenseVersion":"v1"},{"id":"EDN-002","name":"Night Shift","slug":"night-shift","status":"Live","featured":true,"genre":"Trap","tags":["Melodic Trap","Dark"],"bpm":142,"key":"C Minor","mood":"Dark / Melodic","description":"Dark melodic trap with room for a strong vocal performance. Replace this sample listing with your real beat details.","youtube":"","prices":{"mp3":150,"wav":300,"trackout":450,"exclusive":1500},"exclusiveSold":false,"licenseVersion":"v1"},{"id":"EDN-003","name":"Pressure","slug":"pressure","status":"Live","featured":false,"genre":"Hip-Hop","tags":["Hard","Cinematic"],"bpm":92,"key":"D Minor","mood":"Aggressive","description":"Hard, cinematic hip-hop production with a heavy pocket. Replace this sample listing with your real beat details.","youtube":"","prices":{"mp3":200,"wav":300,"trackout":450,"exclusive":1800},"exclusiveSold":false,"licenseVersion":"v1"}];
+let beats=EMBEDDED_CATALOG.slice(),cart=JSON.parse(localStorage.getItem('edon_cart')||'[]');
+const $=id=>document.getElementById(id);
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function youtubeId(url){if(!url)return '';try{let u=new URL(url);if(u.hostname.includes('youtu.be'))return u.pathname.slice(1).split('/')[0];let v=u.searchParams.get('v');if(v)return v;let m=u.pathname.match(/\/(?:embed|shorts)\/([^/?]+)/);return m?m[1]:''}catch(e){let m=String(url).match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([^&?/]+)/);return m?m[1]:''}}
+function youtubeThumb(url){let id=youtubeId(url);return id?'https://img.youtube.com/vi/'+id+'/hqdefault.jpg':''}
+function setupGenres(){let gs=[...new Set(beats.filter(b=>b.status==='Live').map(b=>b.genre).filter(Boolean))].sort();$('genre').innerHTML='<option value="all">All Genres</option>'+gs.map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join('')}
+function list(){
+  let q=$('search').value.toLowerCase().trim(),g=$('genre').value,
+      a=beats.filter(b=>b.status==='Live')
+              .filter(b=>(!q||(b.name+' '+b.genre+' '+(b.tags||[]).join(' ')+' '+(b.mood||'')).toLowerCase().includes(q)))
+              .filter(b=>g==='all'||b.genre===g);
+  a.sort((x,y)=>String(y.id).localeCompare(String(x.id),undefined,{numeric:true})); // default: newest beat ID first
+  if($('sort').value==='low')a.sort((x,y)=>(x.prices?.mp3||0)-(y.prices?.mp3||0));
+  if($('sort').value==='high')a.sort((x,y)=>(y.prices?.mp3||0)-(x.prices?.mp3||0));
+  if($('sort').value==='bpm')a.sort((x,y)=>(x.bpm||0)-(y.bpm||0));
+  if($('sort').value==='featured')a.sort((x,y)=>Number(y.featured)-Number(x.featured));
+  return a
+}
+function render(){let a=list();$('countText').textContent=a.length+' BEAT'+(a.length===1?'':'S')+' AVAILABLE';$('grid').innerHTML=a.map(b=>{let th=youtubeThumb(b.youtube),art=th?`hasimg" style="background-image:linear-gradient(180deg,transparent 35%,rgba(0,0,0,.65)),url('${th}')`:'',has=!!b.youtube;return `<article class="card"><div class="art ${art}"><span class="tag">${esc(b.genre)}</span>${b.featured?'<span class="featured">Featured</span>':''}<button class="play" data-preview="${esc(b.id)}" title="${has?'Preview on YouTube':'No preview added'}">${has?'▶':'•'}</button></div><div class="details"><div class="row"><div class="title">${esc(b.name)}</div><div class="from">FROM GH₵${Number(b.prices?.mp3||0).toLocaleString()}</div></div><div class="meta"><span>${esc(b.bpm)} BPM</span><span>${esc(b.key)}</span><span>${esc(b.mood)}</span></div><div class="desc">${esc(b.description)}</div><div class="cardactions"><button class="choose" data-buy="${esc(b.id)}">Choose License</button><button data-info="${esc(b.id)}">Details</button></div></div></article>`}).join('');$('empty').style.display=a.length?'none':'block';updateCart()}
+function openBuy(id){let b=beats.find(x=>x.id===id);if(!b)return;$('modalTitle').textContent=b.name;$('modalMeta').textContent=`${b.genre} · ${(b.tags||[]).join(' / ')} · ${b.bpm} BPM · ${b.key}`;let vid=youtubeId(b.youtube);$('videoWrap').innerHTML=vid?`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(vid)}?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(location.origin)}" title="${esc(b.name)} preview" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`:'<div class="video-empty">No YouTube preview has been added to this beat yet.</div>';$('choices').innerHTML='';[['mp3','MP3 Lease'],['wav','WAV Lease'],['trackout','Trackout'],['exclusive','Exclusive']].forEach(([k,n])=>{if(k==='exclusive'&&b.exclusiveSold)return;let p=b.prices?.[k];if(p==null)return;let x=document.createElement('button');x.className='choice';x.innerHTML=`${n}<strong>GH₵${Number(p).toLocaleString()}</strong>`;x.onclick=()=>add(b.id,k);$('choices').appendChild(x)});$('modal').classList.add('open')}
+function add(id,license){let b=beats.find(x=>x.id===id);cart.push({id,license,price:Number(b.prices[license])});localStorage.setItem('edon_cart',JSON.stringify(cart));$('modal').classList.remove('open');$('cartPanel').classList.add('open');updateCart()}
+function updateCart(){let total=cart.reduce((s,x)=>s+x.price,0);$('total').textContent='GH₵'+total.toLocaleString();$('cartCount').textContent=cart.length;$('cartItems').innerHTML=cart.length?cart.map((x,i)=>{let b=beats.find(y=>y.id===x.id);return `<div class="cartitem"><div><strong>${esc(b?.name||x.id)}</strong><br><small>${esc(x.license.toUpperCase())} · GH₵${Number(x.price).toLocaleString()}</small></div><button class="remove" data-remove="${i}">Remove</button></div>`}).join(''):'<p class="notice">Your cart is empty.</p>'}
+function playPreview(id){openBuy(id);}
+$('grid').addEventListener('click',e=>{let b=e.target.closest('[data-buy]');if(b)openBuy(b.dataset.buy);let i=e.target.closest('[data-info]');if(i)openBuy(i.dataset.info);let p=e.target.closest('[data-preview]');if(p)playPreview(p.dataset.preview)});
+$('cartItems').addEventListener('click',e=>{let r=e.target.closest('[data-remove]');if(r){cart.splice(Number(r.dataset.remove),1);localStorage.setItem('edon_cart',JSON.stringify(cart));updateCart()}});
+['search','genre','sort'].forEach(id=>$(id).addEventListener('input',render));$('close').onclick=()=>$('modal').classList.remove('open');$('cartClose').onclick=()=>$('cartPanel').classList.remove('open');$('modal').onclick=e=>{if(e.target===$('modal'))$('modal').classList.remove('open')};$('checkout').onclick=()=>alert('Paystack checkout will be connected after the catalog/licensing rules are finalized.');
+$('cartToggle').onclick=()=>$('cartPanel').classList.add('open');
+$('menu').onclick=()=>{let open=$('mobileNav').classList.toggle('open');$('menu').setAttribute('aria-expanded',open?'true':'false');};document.querySelectorAll('.mobile-nav a').forEach(a=>a.addEventListener('click',()=>{$('mobileNav').classList.remove('open');$('menu').setAttribute('aria-expanded','false')}));
+async function load(){
+  const paths=['./beats.json','/beats/beats.json'];
+  let loaded=false;
+  for(const path of paths){
+    try{
+      const r=await fetch(path,{cache:'no-store'});
+      if(!r.ok) continue;
+      const x=await r.json();
+      if(Array.isArray(x)&&x.length){beats=x;loaded=true;break}
+    }catch(e){console.warn('Catalog load failed:',path,e)}
+  }
+  if(!loaded){
+    console.warn('beats.json was not reachable; using embedded catalog.');
+    beats=EMBEDDED_CATALOG.slice();
+  }
+  setupGenres();
+  render();
+}
+load();
+</script>
+</body>
+</html>
