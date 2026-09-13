@@ -28,7 +28,7 @@
     "id": "E20-0002",
     "name": "Champ",
     "slug": "night-shift",
-    "status": "Draft",
+    "status": "Live",
     "featured": true,
     "genre": "Afro",
     "tags": [
@@ -55,7 +55,7 @@
     "id": "E20-0003",
     "name": "Faya",
     "slug": "pressure",
-    "status": "Draft",
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
