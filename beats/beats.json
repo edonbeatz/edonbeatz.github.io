@@ -82,7 +82,7 @@
     "id": "E20-0004",
     "name": "Shaker",
     "slug": "shaker",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Dancehall",
     "tags": [
@@ -108,7 +108,7 @@
     "id": "E20-0005",
     "name": "Bae",
     "slug": "bae",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -135,7 +135,7 @@
     "id": "E20-0006",
     "name": "Both Sides",
     "slug": "both-sides",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -162,7 +162,7 @@
     "id": "E20-0007",
     "name": "Dance floor",
     "slug": "dance-floor",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Dancehall",
     "tags": [
@@ -189,7 +189,7 @@
     "id": "E20-0008",
     "name": "It's On",
     "slug": "its-on",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -218,7 +218,7 @@
     "id": "E20-0009",
     "name": "Just Me",
     "slug": "just-me",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -247,7 +247,7 @@
     "id": "E20-0010",
     "name": "Shevi",
     "slug": "shevi",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Amapiano",
     "tags": [
@@ -274,7 +274,7 @@
     "id": "E20-0011",
     "name": "Life",
     "slug": "life",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Drill",
     "tags": [
@@ -302,7 +302,7 @@
     "id": "E20-0012",
     "name": "Akoma",
     "slug": "akoma",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -329,7 +329,7 @@
     "id": "E20-0013",
     "name": "Sneaky",
     "slug": "sneaky",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Drill",
     "tags": [
@@ -357,7 +357,7 @@
     "id": "E20-0014",
     "name": "Invation",
     "slug": "invation",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Drill",
     "tags": [
@@ -385,7 +385,7 @@
     "id": "E20-0015",
     "name": "Some Day",
     "slug": "some-day",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -412,7 +412,7 @@
     "id": "E20-0016",
     "name": "Zion",
     "slug": "zion",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -437,7 +437,7 @@
     "id": "E20-0017",
     "name": "Return",
     "slug": "return",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -465,7 +465,7 @@
     "id": "E20-0018",
     "name": "Rise Up",
     "slug": "rise-up",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -491,7 +491,7 @@
     "id": "E20-0019",
     "name": "See You There",
     "slug": "see-you-there",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "EDM",
     "tags": [
@@ -519,7 +519,7 @@
     "id": "E20-0020",
     "name": "My Space",
     "slug": "my-space",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -547,7 +547,7 @@
     "id": "E20-0021",
     "name": "Blow",
     "slug": "blow",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Amapiano",
     "tags": [
@@ -575,7 +575,7 @@
     "id": "E20-0022",
     "name": "Touch",
     "slug": "touch",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -602,7 +602,7 @@
     "id": "E20-0023",
     "name": "Freedom",
     "slug": "freedom",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -628,7 +628,7 @@
     "id": "E20-0024",
     "name": "Danger Zone",
     "slug": "danger-zone",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -656,7 +656,7 @@
     "id": "E20-0025",
     "name": "Deefuor",
     "slug": "deefuor",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -684,7 +684,7 @@
     "id": "E20-0026",
     "name": "Love",
     "slug": "love",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -710,7 +710,7 @@
     "id": "E20-0027",
     "name": "Harmony",
     "slug": "harmony",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -739,7 +739,7 @@
     "id": "E20-0028",
     "name": "Conqueror",
     "slug": "conqueror",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -768,7 +768,7 @@
     "id": "E20-0029",
     "name": "Vibes",
     "slug": "vibes",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Dancehall",
     "tags": [
@@ -794,7 +794,7 @@
     "id": "E20-0030",
     "name": "Touch 2",
     "slug": "touch-3",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -822,7 +822,7 @@
     "id": "E20-0031",
     "name": "Between Us",
     "slug": "between-us",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -850,7 +850,7 @@
     "id": "E20-0032",
     "name": "No woman no cry",
     "slug": "no-woman-no-cry",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -879,7 +879,7 @@
     "id": "E20-0033",
     "name": "Jamming Riddim",
     "slug": "jamming-riddim",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -908,7 +908,7 @@
     "id": "E20-0034",
     "name": "Addis Ababa",
     "slug": "addisa-baba",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -935,7 +935,7 @@
     "id": "E20-0035",
     "name": "Real",
     "slug": "real",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -963,7 +963,7 @@
     "id": "E20-0036",
     "name": "Soldier",
     "slug": "soldier",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Dancehall",
     "tags": [
@@ -991,7 +991,7 @@
     "id": "E20-0037",
     "name": "Best Reggae Tune",
     "slug": "best-reggae-tune",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -1020,7 +1020,7 @@
     "id": "E20-0038",
     "name": "Jamming Riddim",
     "slug": "jamming-riddim-2",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Reggae",
     "tags": [
@@ -1049,7 +1049,7 @@
     "id": "E20-0039",
     "name": "Trying",
     "slug": "trying",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1076,7 +1076,7 @@
     "id": "E20-0040",
     "name": "Sacrifice",
     "slug": "sacrifice",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1103,7 +1103,7 @@
     "id": "E20-0041",
     "name": "Ful Elise",
     "slug": "ful-elise",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1130,7 +1130,7 @@
     "id": "E20-0042",
     "name": "Legend",
     "slug": "legend",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Hip Hop",
     "tags": [
@@ -1156,7 +1156,7 @@
     "id": "E20-0043",
     "name": "Dollars",
     "slug": "dollars",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1183,7 +1183,7 @@
     "id": "E20-0044",
     "name": "Dream",
     "slug": "dream",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Hip Hop",
     "tags": [
@@ -1210,7 +1210,7 @@
     "id": "E20-0045",
     "name": "Falling",
     "slug": "falling",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1238,7 +1238,7 @@
     "id": "E20-0046",
     "name": "Hey ya",
     "slug": "hey-ya",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1266,7 +1266,7 @@
     "id": "E20-0047",
     "name": "Twisted",
     "slug": "twisted",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1293,7 +1293,7 @@
     "id": "E20-0048",
     "name": "Galaxy",
     "slug": "galaxy",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1320,7 +1320,7 @@
     "id": "E20-0049",
     "name": "You",
     "slug": "you",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1347,7 +1347,7 @@
     "id": "E20-0050",
     "name": "Sinking",
     "slug": "sinking",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1374,7 +1374,7 @@
     "id": "E20-0051",
     "name": "Shake it",
     "slug": "shake-it",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1401,7 +1401,7 @@
     "id": "E20-0052",
     "name": "Odo bi",
     "slug": "odo-bi",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1428,7 +1428,7 @@
     "id": "E20-0053",
     "name": "Manifest",
     "slug": "manifest",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1455,7 +1455,7 @@
     "id": "E20-0054",
     "name": "Heal",
     "slug": "heal",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1482,7 +1482,7 @@
     "id": "E20-0055",
     "name": "Darling",
     "slug": "darling",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1509,7 +1509,7 @@
     "id": "E20-0056",
     "name": "Tempting",
     "slug": "tempting",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1537,7 +1537,7 @@
     "id": "E20-0057",
     "name": "Moment",
     "slug": "moment",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1564,7 +1564,7 @@
     "id": "E20-0058",
     "name": "Goodbye",
     "slug": "goodbye",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1591,7 +1591,7 @@
     "id": "E20-0059",
     "name": "Strange",
     "slug": "strange",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1619,7 +1619,7 @@
     "id": "E20-0060",
     "name": "Damn",
     "slug": "damn",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1647,7 +1647,7 @@
     "id": "E20-0061",
     "name": "My Time",
     "slug": "my-time",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1674,7 +1674,7 @@
     "id": "E20-0062",
     "name": "Mine",
     "slug": "mine",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1701,7 +1701,7 @@
     "id": "E20-0063",
     "name": "Stamina",
     "slug": "stamina",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1730,7 +1730,7 @@
     "id": "E20-0064",
     "name": "Detox",
     "slug": "detox",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1756,7 +1756,7 @@
     "id": "E20-0065",
     "name": "Pray",
     "slug": "pray",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Hip Hop",
     "tags": [
@@ -1784,7 +1784,7 @@
     "id": "E20-0066",
     "name": "Femi",
     "slug": "femi",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Afro",
     "tags": [
@@ -1810,7 +1810,7 @@
     "id": "E20-0067",
     "name": "Believe",
     "slug": "believe",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Hip Hop",
     "tags": [
@@ -1837,7 +1837,7 @@
     "id": "E20-0068",
     "name": "Sorry",
     "slug": "sorry",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Trap",
     "tags": [
@@ -1865,7 +1865,7 @@
     "id": "E20-0069",
     "name": "Risk",
     "slug": "risk",
-    "status": null,
+    "status": "Live",
     "featured": false,
     "genre": "Drill",
     "tags": [
