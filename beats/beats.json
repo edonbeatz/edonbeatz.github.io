@@ -1,100 +1,1889 @@
 [
   {
-    "id": "EDN-001",
-    "name": "RISK",
-    "slug": "risk",
-    "status": "Live",
-    "featured": true,
-    "genre": "Trap",
-    "tags": [
-      "Afrobeat",
-      "Soulful Bounce"
-    ],
-    "bpm": 141,
-    "key": "F# Minor",
-    "mood": "Warm / Soulful",
-    "description": "Warm Afro-inspired bounce with a soulful pocket. Replace this sample listing with your real beat details.",
-    "youtube": "https://youtu.be/F92XsIzfemk",
-    "prices": {
-      "mp3": 150,
-      "wav": 300,
-      "trackout": 450,
-      "exclusive": 1500
-    },
-    "exclusiveSold": false,
-    "licenseVersion": "v1"
-  },
-  {
-    "id": "EDN-002",
-    "name": "Night Shift",
-    "slug": "night-shift",
-    "status": "Live",
-    "featured": true,
-    "genre": "Trap",
-    "tags": [
-      "Melodic Trap",
-      "Dark"
-    ],
-    "bpm": 142,
-    "key": "C Minor",
-    "mood": "Dark / Melodic",
-    "description": "Dark melodic trap with room for a strong vocal performance. Replace this sample listing with your real beat details.",
-    "youtube": "",
-    "prices": {
-      "mp3": 150,
-      "wav": 300,
-      "trackout": 450,
-      "exclusive": 1500
-    },
-    "exclusiveSold": false,
-    "licenseVersion": "v1"
-  },
-  {
-    "id": "EDN-003",
-    "name": "Pressure",
-    "slug": "pressure",
+    "id": "E20-0001",
+    "name": "2-Min Bite",
+    "slug": "2-min-bite",
     "status": "Live",
     "featured": false,
-    "genre": "Hip-Hop",
+    "genre": "Trap",
     "tags": [
-      "Hard",
-      "Cinematic"
+      "Irish Trap"
     ],
-    "bpm": 92,
-    "key": "D Minor",
-    "mood": "Aggressive",
-    "description": "Hard, cinematic hip-hop production with a heavy pocket. Replace this sample listing with your real beat details.",
-    "youtube": "",
+    "bpm": null,
+    "key": null,
+    "mood": "Hard / Soulful",
+    "description": "Irish Trap beat with a hard / soulful feel, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/Upu5S0S28uM",
+    "artwork": null,
     "prices": {
-      "mp3": 200,
+      "mp3": 150,
       "wav": 300,
-      "trackout": 450,
-      "exclusive": 1800
+      "trackout": 500,
+      "exclusive": 1500
     },
     "exclusiveSold": false,
     "licenseVersion": "v1"
   },
   {
-    "id": "EDN-004",
-    "name": "MY TIME",
-    "slug": "my-time",
-    "status": "Live",
+    "id": "E20-0002",
+    "name": "Champ",
+    "slug": "night-shift",
+    "status": "Draft",
     "featured": true,
-    "genre": "Hip-Hop",
+    "genre": "Afro",
     "tags": [
-      "Hard",
-      "Cinematic"
+      "Afrobeat",
+      "Melodic trap",
+      "dark"
     ],
-    "bpm": 127,
-    "key": "D Minor",
-    "mood": "Aggressive",
-    "description": "Hard, cinematic hip-hop production with a heavy pocket. Replace this sample listing with your real beat details.",
-    "youtube": "https://youtu.be/3YgBIz_oxdE",
+    "bpm": 104,
+    "key": null,
+    "mood": "Melodic",
+    "description": "Afrobeat, Melodic trap, dark beat with a melodic feel, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/MynusYCz0nE",
+    "artwork": null,
     "prices": {
       "mp3": 150,
       "wav": 300,
-      "trackout": 450,
-      "exclusive": 1800
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0003",
+    "name": "Faya",
+    "slug": "pressure",
+    "status": "Draft",
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Dance",
+      "Azonto",
+      "Afrobeat"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": "Aggressive",
+    "description": "Dance, Azonto, Afrobeat beat with a aggressive feel, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/Uu0F5pNLgj0",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0004",
+    "name": "Shaker",
+    "slug": "shaker",
+    "status": null,
+    "featured": false,
+    "genre": "Dancehall",
+    "tags": [
+      "Afrobeat",
+      "soulful bounce"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, soulful bounce beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/J3ycNpc-vWU",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0005",
+    "name": "Bae",
+    "slug": "bae",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Highlife",
+      "Melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, Highlife, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/R8M8IGNdBqA",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": true,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0006",
+    "name": "Both Sides",
+    "slug": "both-sides",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "dark",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": "Soulful",
+    "description": "Afrobeat, dark, soulful beat with a soulful feel, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/qJc9-2eA2B8",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": true,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0007",
+    "name": "Dance floor",
+    "slug": "dance-floor",
+    "status": null,
+    "featured": false,
+    "genre": "Dancehall",
+    "tags": [
+      "Dancehall",
+      "melodic",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Dancehall, melodic, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/xDntysv8-ko",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0008",
+    "name": "It's On",
+    "slug": "its-on",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "Trap",
+      "rap",
+      "melodic",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, Trap, rap beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/-_njdQW8_ZY",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0009",
+    "name": "Just Me",
+    "slug": "just-me",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "Trap",
+      "rap",
+      "dark",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, Trap, rap beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/dGWbYsDyBd0",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0010",
+    "name": "Shevi",
+    "slug": "shevi",
+    "status": null,
+    "featured": false,
+    "genre": "Amapiano",
+    "tags": [
+      "Dance",
+      "Amapiano",
+      "Melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Dance, Amapiano, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/-pCZ6xqH1vA",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0011",
+    "name": "Life",
+    "slug": "life",
+    "status": null,
+    "featured": false,
+    "genre": "Drill",
+    "tags": [
+      "Drill",
+      "Rap",
+      "Dark",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Drill, Rap, Dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/ex5Gee0xokk",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0012",
+    "name": "Akoma",
+    "slug": "akoma",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Highlife",
+      "Melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, Highlife, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/cUwJ36ggSdU",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0013",
+    "name": "Sneaky",
+    "slug": "sneaky",
+    "status": null,
+    "featured": false,
+    "genre": "Drill",
+    "tags": [
+      "Drill",
+      "Rap",
+      "Dark",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Drill, Rap, Dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/8qi8PdoIqtE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0014",
+    "name": "Invation",
+    "slug": "invation",
+    "status": null,
+    "featured": false,
+    "genre": "Drill",
+    "tags": [
+      "Drill",
+      "Rap",
+      "Dark",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Drill, Rap, Dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/gla8Y8J8c5M",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0015",
+    "name": "Some Day",
+    "slug": "some-day",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "dark",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, dark, soulful beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/WY8jL9hkM_o",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0016",
+    "name": "Zion",
+    "slug": "zion",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Hard"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/2bg5-yzsLK8",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0017",
+    "name": "Return",
+    "slug": "return",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Soulful",
+      "dark",
+      "highlife"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, Soulful, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/mOdukkZwzGM",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0018",
+    "name": "Rise Up",
+    "slug": "rise-up",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Hard",
+      "Melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/JSAb_A27uT4",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0019",
+    "name": "See You There",
+    "slug": "see-you-there",
+    "status": null,
+    "featured": false,
+    "genre": "EDM",
+    "tags": [
+      "Electronic",
+      "Dance",
+      "emotional",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Electronic, Dance, emotional beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/ASq6xsoEa2c",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0020",
+    "name": "My Space",
+    "slug": "my-space",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "soulful",
+      "dark",
+      "melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, soulful, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/KctnSpcWi3c",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0021",
+    "name": "Blow",
+    "slug": "blow",
+    "status": null,
+    "featured": false,
+    "genre": "Amapiano",
+    "tags": [
+      "Amapiano",
+      "dance",
+      "melodic",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Amapiano, dance, melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/jimxQeVcfek",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0022",
+    "name": "Touch",
+    "slug": "touch",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Melodic",
+      "Dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, Melodic, Dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/0s5HAJbfsCo",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0023",
+    "name": "Freedom",
+    "slug": "freedom",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Hard",
+      "Melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/xHqm3jaQ4oo",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0024",
+    "name": "Danger Zone",
+    "slug": "danger-zone",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "Bright",
+      "Rap",
+      "Trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, Bright, Rap beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/_wHrbpdWvAw",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0025",
+    "name": "Deefuor",
+    "slug": "deefuor",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Highlife",
+      "Afrobeat",
+      "Melodic",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Highlife, Afrobeat, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/GLf7Fwtq8no",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0026",
+    "name": "Love",
+    "slug": "love",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Hard",
+      "Melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/eMP_pQxZV54",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0027",
+    "name": "Harmony",
+    "slug": "harmony",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Reggae",
+      "roots reggae",
+      "soulful",
+      "melodic",
+      "uplifting"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Reggae, roots reggae, soulful beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/TyVb-_KoznE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0028",
+    "name": "Conqueror",
+    "slug": "conqueror",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Reggae",
+      "roots reggae",
+      "hard",
+      "powerful",
+      "anthem"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Reggae, roots reggae, hard beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/Lv1B8oN-cUE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0029",
+    "name": "Vibes",
+    "slug": "vibes",
+    "status": null,
+    "featured": false,
+    "genre": "Dancehall",
+    "tags": [
+      "Hard",
+      "Melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/RPZCtYdzRmg",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0030",
+    "name": "Touch 2",
+    "slug": "touch-3",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "melodic",
+      "dark",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, melodic, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/OU6x9pyY6gk",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0031",
+    "name": "Between Us",
+    "slug": "between-us",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "melodic",
+      "soulful",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, melodic, soulful beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/TKFJ2kQQMSE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0032",
+    "name": "No woman no cry",
+    "slug": "no-woman-no-cry",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Reggae",
+      "roots reggae",
+      "soulful",
+      "emotional",
+      "classic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Reggae, roots reggae, soulful beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/977f8RU03RM",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0033",
+    "name": "Jamming Riddim",
+    "slug": "jamming-riddim",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Reggae",
+      "dancehall",
+      "riddim",
+      "melodic",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Reggae, dancehall, riddim beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/_9jDHhQTrRc",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0034",
+    "name": "Addis Ababa",
+    "slug": "addisa-baba",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Reggae",
+      "beat",
+      "music"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Reggae, beat, music beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/0Y3ugmtuAFI",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0035",
+    "name": "Real",
+    "slug": "real",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Afroswing",
+      "dark",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Afrobeat, Afroswing, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/S4sX4PfGFKE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0036",
+    "name": "Soldier",
+    "slug": "soldier",
+    "status": null,
+    "featured": false,
+    "genre": "Dancehall",
+    "tags": [
+      "Hard",
+      "melodic",
+      "soulful",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, melodic, soulful beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/dgb54OUx_hY",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0037",
+    "name": "Best Reggae Tune",
+    "slug": "best-reggae-tune",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Reggae",
+      "roots reggae",
+      "melodic",
+      "soulful",
+      "uplifting"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Reggae, roots reggae, melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/iiv8dXcfCCI",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0038",
+    "name": "Jamming Riddim",
+    "slug": "jamming-riddim-2",
+    "status": null,
+    "featured": false,
+    "genre": "Reggae",
+    "tags": [
+      "Reggae",
+      "dancehall",
+      "riddim",
+      "melodic",
+      "soulful"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Reggae, dancehall, riddim beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/_9jDHhQTrRc",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0039",
+    "name": "Trying",
+    "slug": "trying",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Rap",
+      "Dark",
+      "Hard"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Rap, Dark, Hard beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/RQkjTn78xK4",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0040",
+    "name": "Sacrifice",
+    "slug": "sacrifice",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Soul trap",
+      "dark",
+      "emotional"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Soul trap, dark, emotional beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/0A-xDIsCl6c",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0041",
+    "name": "Ful Elise",
+    "slug": "ful-elise",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "emotional",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, emotional, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/cHIyAcN1MUM",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0042",
+    "name": "Legend",
+    "slug": "legend",
+    "status": null,
+    "featured": false,
+    "genre": "Hip Hop",
+    "tags": [
+      "Hiphop",
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hiphop, rap beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/9YxOkjLNOg8",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0043",
+    "name": "Dollars",
+    "slug": "dollars",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "Soultful",
+      "melodic"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, Soultful, melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/Jzmd_xFYOM8",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0044",
+    "name": "Dream",
+    "slug": "dream",
+    "status": null,
+    "featured": false,
+    "genre": "Hip Hop",
+    "tags": [
+      "Hard",
+      "melodic",
+      "dark"
+    ],
+    "bpm": null,
+    "key": null,
+    "mood": null,
+    "description": "Hard, melodic, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/0EWO3RuCMY0",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0045",
+    "name": "Falling",
+    "slug": "falling",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Highlife",
+      "Melodic",
+      "dark"
+    ],
+    "bpm": 101,
+    "key": "F",
+    "mood": null,
+    "description": "Afrobeat, Highlife, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/NGGhRW1u6_o",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0046",
+    "name": "Hey ya",
+    "slug": "hey-ya",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Afrofusion",
+      "dark",
+      "soulful"
+    ],
+    "bpm": 108,
+    "key": "Ab m",
+    "mood": null,
+    "description": "Afrobeat, Afrofusion, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/nBi3H0dCkCw",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0047",
+    "name": "Twisted",
+    "slug": "twisted",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "dark",
+      "soulful"
+    ],
+    "bpm": 105,
+    "key": "Eb m",
+    "mood": null,
+    "description": "Afrobeat, dark, soulful beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/tI1DhXf1-ag",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0048",
+    "name": "Galaxy",
+    "slug": "galaxy",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "Melodic",
+      "Dark"
+    ],
+    "bpm": 140,
+    "key": "F# m",
+    "mood": null,
+    "description": "Hard, Melodic, Dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/O4Ktej5QNl4",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0049",
+    "name": "You",
+    "slug": "you",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "melodic",
+      "soulful"
+    ],
+    "bpm": 92,
+    "key": "C# m",
+    "mood": null,
+    "description": "Afrobeat, melodic, soulful beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/A8dW7w3LEIA",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0050",
+    "name": "Sinking",
+    "slug": "sinking",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Melodic",
+      "Dark"
+    ],
+    "bpm": 104,
+    "key": "C",
+    "mood": null,
+    "description": "Afrobeat, Melodic, Dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/MxSttff8dBU",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0051",
+    "name": "Shake it",
+    "slug": "shake-it",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "dark",
+      "Melodic"
+    ],
+    "bpm": 98,
+    "key": "Bb",
+    "mood": null,
+    "description": "Afrobeat, dark, Melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/4881NoFOnwQ",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0052",
+    "name": "Odo bi",
+    "slug": "odo-bi",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrofusion",
+      "melodic",
+      "dark"
+    ],
+    "bpm": 115,
+    "key": "A m",
+    "mood": null,
+    "description": "Afrofusion, melodic, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/Ihrq7ef1VtQ",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0053",
+    "name": "Manifest",
+    "slug": "manifest",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "Soultful",
+      "Dark"
+    ],
+    "bpm": 82,
+    "key": "D",
+    "mood": null,
+    "description": "Hard, Soultful, Dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/kKvR7DqjscQ",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0054",
+    "name": "Heal",
+    "slug": "heal",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "dark",
+      "melodic"
+    ],
+    "bpm": 100,
+    "key": "Ab m",
+    "mood": null,
+    "description": "Afrobeat, dark, melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/HsqJVtTEWMM",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0055",
+    "name": "Darling",
+    "slug": "darling",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Dark",
+      "Soulful",
+      "Emotional"
+    ],
+    "bpm": 80,
+    "key": "B m",
+    "mood": null,
+    "description": "Dark, Soulful, Emotional beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/AuiMGzfe2YE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0056",
+    "name": "Tempting",
+    "slug": "tempting",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "Soulful",
+      "dark",
+      "emotional"
+    ],
+    "bpm": 96,
+    "key": "Bb",
+    "mood": null,
+    "description": "Afrobeat, Soulful, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/3AtmsYMn214",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0057",
+    "name": "Moment",
+    "slug": "moment",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrofusion",
+      "Dark",
+      "Hard"
+    ],
+    "bpm": 108,
+    "key": "E m",
+    "mood": null,
+    "description": "Afrofusion, Dark, Hard beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/oo1p0haop9c",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0058",
+    "name": "Goodbye",
+    "slug": "goodbye",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "rap",
+      "dark"
+    ],
+    "bpm": 84.5,
+    "key": "C m",
+    "mood": null,
+    "description": "Hard, rap, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/wrYN_Pfdax0",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0059",
+    "name": "Strange",
+    "slug": "strange",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrofusion",
+      "Dark",
+      "Hard",
+      "Afrobeat"
+    ],
+    "bpm": 104,
+    "key": "C",
+    "mood": null,
+    "description": "Afrofusion, Dark, Hard beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/kbEvFoxSZt8",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0060",
+    "name": "Damn",
+    "slug": "damn",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "melodic",
+      "soulful",
+      "dark"
+    ],
+    "bpm": 92,
+    "key": "F#",
+    "mood": null,
+    "description": "Hard, melodic, soulful beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/ssK0zXzEfdI",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0061",
+    "name": "My Time",
+    "slug": "my-time",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrofusion",
+      "Dark",
+      "Hard"
+    ],
+    "bpm": 127,
+    "key": "D m",
+    "mood": null,
+    "description": "Afrofusion, Dark, Hard beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/3YgBIz_oxdE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0062",
+    "name": "Mine",
+    "slug": "mine",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrobeat",
+      "melodic",
+      "hard"
+    ],
+    "bpm": 120,
+    "key": "D m",
+    "mood": null,
+    "description": "Afrobeat, melodic, hard beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/kRPteai2Mp4",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0063",
+    "name": "Stamina",
+    "slug": "stamina",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrodrill",
+      "hard",
+      "melodic",
+      "dark",
+      "soulful"
+    ],
+    "bpm": 108,
+    "key": "A m",
+    "mood": null,
+    "description": "Afrodrill, hard, melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/Z3iOiXLhOuc",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0064",
+    "name": "Detox",
+    "slug": "detox",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Hard",
+      "Afrobeat"
+    ],
+    "bpm": 108.5,
+    "key": "Bb",
+    "mood": null,
+    "description": "Hard, Afrobeat beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/vA3LlMoQmts",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0065",
+    "name": "Pray",
+    "slug": "pray",
+    "status": null,
+    "featured": false,
+    "genre": "Hip Hop",
+    "tags": [
+      "Soulful",
+      "dark",
+      "melodic",
+      "spiritual"
+    ],
+    "bpm": 86,
+    "key": "E",
+    "mood": null,
+    "description": "Soulful, dark, melodic beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/D1PppvnmNrE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0066",
+    "name": "Femi",
+    "slug": "femi",
+    "status": null,
+    "featured": false,
+    "genre": "Afro",
+    "tags": [
+      "Afrofusion",
+      "dark"
+    ],
+    "bpm": 102,
+    "key": "B",
+    "mood": null,
+    "description": "Afrofusion, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/8Sznk7XDeXs",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0067",
+    "name": "Believe",
+    "slug": "believe",
+    "status": null,
+    "featured": false,
+    "genre": "Hip Hop",
+    "tags": [
+      "Hard",
+      "emotional",
+      "dark"
+    ],
+    "bpm": 117,
+    "key": "Db",
+    "mood": null,
+    "description": "Hard, emotional, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/gdTGzyeZNwI",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0068",
+    "name": "Sorry",
+    "slug": "sorry",
+    "status": null,
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard",
+      "Emotional",
+      "dark",
+      "Soulful"
+    ],
+    "bpm": 84,
+    "key": "Ab",
+    "mood": null,
+    "description": "Hard, Emotional, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/EmO77vVkYEE",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0069",
+    "name": "Risk",
+    "slug": "risk",
+    "status": null,
+    "featured": false,
+    "genre": "Drill",
+    "tags": [
+      "Hard Drill",
+      "rap",
+      "dark"
+    ],
+    "bpm": 141,
+    "key": "Eb m",
+    "mood": null,
+    "description": "Hard Drill, rap, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/F92XsIzfemk",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
     },
     "exclusiveSold": false,
     "licenseVersion": "v1"
