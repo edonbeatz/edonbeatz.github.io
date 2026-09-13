@@ -120,8 +120,19 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:#666;font-size:10px
 
 <div class="modal" id="modal"><div class="box"><button class="close" id="close">&times;</button><p class="eyebrow">Select a license</p><h3 id="modalTitle">Beat</h3><p id="modalMeta"></p><div class="video-wrap" id="videoWrap"></div><div class="choices" id="choices"></div><p class="notice">Checkout will be connected to Paystack after the catalog is finalized.</p></div></div>
 
-<aside class="cart-panel" id="cartPanel"><div class="carthead"><div><p class="eyebrow">Your selection</p><h2 style="font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:800;letter-spacing:-1px;margin:0">Cart</h2></div><button class="close" id="cartClose">&times;</button></div><div id="cartItems"></div><div class="total"><span>Total</span><span id="total">GH₵0</span></div><button class="checkout" id="checkout">Continue to Paystack</button><p class="notice">Payment verification and MEGA delivery are added server-side once the catalog is finalized. Never put the Paystack secret key in this page.</p></aside>
+<aside class="cart-panel" id="cartPanel"><div class="carthead"><div><p class="eyebrow">Your selection</p><h2 style="font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:800;letter-spacing:-1px;margin:0">Cart</h2></div><button class="close" id="cartClose">&times;</button></div><div id="cartItems"></div><div class="total"><span>Total</span><span id="total">GH₵0</span></div><label for="buyerEmail" style="display:block;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:#777;margin-bottom:6px">Your email (for order confirmation)</label><input id="buyerEmail" type="email" placeholder="you@email.com" style="width:100%;background:#171717;border:1px solid var(--line);color:#ddd;padding:12px;font-size:13px;margin-bottom:14px;outline:0"><button class="checkout" id="checkout">Continue to Paystack</button><p class="notice" id="checkoutStatus">Payment verification and MEGA delivery happen manually after a confirmed order — you'll receive your files by email or WhatsApp shortly after payment.</p></aside>
 
+<script src="https://js.paystack.co/v1/inline.js"></script>
+<script>
+/* =====================================================================
+   PAYSTACK CONFIG — one thing to fill in before this goes live.
+   ===================================================================== */
+// Your Paystack PUBLIC key (safe to expose client-side).
+// Dashboard > Settings > API Keys & Webhooks.
+// Use pk_test_... while testing with Paystack's test cards,
+// switch to pk_live_... when you're ready to accept real payments.
+const PAYSTACK_PUBLIC_KEY = "pk_test_REPLACE_WITH_YOUR_PAYSTACK_PUBLIC_KEY";
+</script>
 <script>
 const EMBEDDED_CATALOG=[{"id":"EDN-001","name":"RISK","slug":"risk","status":"Live","featured":true,"genre":"Trap","tags":["Afrobeat","Soulful Bounce"],"bpm":141,"key":"F# Minor","mood":"Warm / Soulful","description":"Warm Afro-inspired bounce with a soulful pocket. Replace this sample listing with your real beat details.","youtube":"https://youtu.be/F92XsIzfemk","prices":{"mp3":150,"wav":300,"trackout":450,"exclusive":1500},"exclusiveSold":false,"licenseVersion":"v1"},{"id":"EDN-002","name":"Night Shift","slug":"night-shift","status":"Live","featured":true,"genre":"Trap","tags":["Melodic Trap","Dark"],"bpm":142,"key":"C Minor","mood":"Dark / Melodic","description":"Dark melodic trap with room for a strong vocal performance. Replace this sample listing with your real beat details.","youtube":"","prices":{"mp3":150,"wav":300,"trackout":450,"exclusive":1500},"exclusiveSold":false,"licenseVersion":"v1"},{"id":"EDN-003","name":"Pressure","slug":"pressure","status":"Live","featured":false,"genre":"Hip-Hop","tags":["Hard","Cinematic"],"bpm":92,"key":"D Minor","mood":"Aggressive","description":"Hard, cinematic hip-hop production with a heavy pocket. Replace this sample listing with your real beat details.","youtube":"","prices":{"mp3":200,"wav":300,"trackout":450,"exclusive":1800},"exclusiveSold":false,"licenseVersion":"v1"}];
 let beats=EMBEDDED_CATALOG.slice(),cart=JSON.parse(localStorage.getItem('edon_cart')||'[]');
@@ -150,7 +161,40 @@ function updateCart(){let total=cart.reduce((s,x)=>s+x.price,0);$('total').textC
 function playPreview(id){openBuy(id);}
 $('grid').addEventListener('click',e=>{let b=e.target.closest('[data-buy]');if(b)openBuy(b.dataset.buy);let i=e.target.closest('[data-info]');if(i)openBuy(i.dataset.info);let p=e.target.closest('[data-preview]');if(p)playPreview(p.dataset.preview)});
 $('cartItems').addEventListener('click',e=>{let r=e.target.closest('[data-remove]');if(r){cart.splice(Number(r.dataset.remove),1);localStorage.setItem('edon_cart',JSON.stringify(cart));updateCart()}});
-['search','genre','sort'].forEach(id=>$(id).addEventListener('input',render));$('close').onclick=closeModal;$('cartClose').onclick=()=>$('cartPanel').classList.remove('open');$('modal').onclick=e=>{if(e.target===$('modal'))closeModal()};$('checkout').onclick=()=>alert('Paystack checkout will be connected after the catalog/licensing rules are finalized.');
+['search','genre','sort'].forEach(id=>$(id).addEventListener('input',render));$('close').onclick=closeModal;$('cartClose').onclick=()=>$('cartPanel').classList.remove('open');$('modal').onclick=e=>{if(e.target===$('modal'))closeModal()};$('checkout').onclick=startCheckout;
+
+function startCheckout(){
+  const statusEl=$('checkoutStatus');
+  if(!cart.length){statusEl.textContent='Your cart is empty.';return}
+  const email=$('buyerEmail').value.trim();
+  if(!email||email.indexOf('@')===-1){statusEl.textContent='Enter a valid email address to continue.';return}
+  if(PAYSTACK_PUBLIC_KEY.indexOf('REPLACE_WITH_YOUR')!==-1){statusEl.textContent="Store isn't fully set up yet — add your Paystack public key in index.html.";return}
+
+  const total=cart.reduce((s,x)=>s+x.price,0);
+  const ref='EDB-'+Date.now();
+  statusEl.textContent='Opening secure Paystack checkout…';
+
+  const handler=PaystackPop.setup({
+    key:PAYSTACK_PUBLIC_KEY,
+    email:email,
+    amount:Math.round(total*100), // GHS pesewas
+    currency:'GHS',
+    ref:ref,
+    metadata:{
+      custom_fields:cart.map(x=>{let b=beats.find(y=>y.id===x.id);return {display_name:'Item',variable_name:'item',value:`${b?.name||x.id} (${x.license.toUpperCase()}) - GH₵${x.price}`}})
+    },
+    callback:function(response){
+      statusEl.textContent='Payment received (ref: '+response.reference+"). You'll get your files by email or WhatsApp shortly.";
+      cart=[];
+      localStorage.setItem('edon_cart','[]');
+      updateCart();
+    },
+    onClose:function(){
+      statusEl.textContent='Checkout closed — no charge was made.';
+    }
+  });
+  handler.openIframe();
+}
 $('cartToggle').onclick=()=>$('cartPanel').classList.add('open');
 $('menu').onclick=()=>{let open=$('mobileNav').classList.toggle('open');$('menu').setAttribute('aria-expanded',open?'true':'false');};document.querySelectorAll('.mobile-nav a').forEach(a=>a.addEventListener('click',()=>{$('mobileNav').classList.remove('open');$('menu').setAttribute('aria-expanded','false')}));
 async function load(){
