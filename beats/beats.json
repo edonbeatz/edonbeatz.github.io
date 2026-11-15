@@ -1907,7 +1907,7 @@
     ],
     "bpm": 84,
     "key": "Cm",
-    "mood": "Dark","spiritual","hope",
+    "mood": ["Dark","spiritual","hope"],
     "description": "Hard Trap, rap, dark beat, built for expressive vocals and a memorable record.",
     "youtube": "https://youtu.be/a4UflSsX-lY",
     "artwork": null,
