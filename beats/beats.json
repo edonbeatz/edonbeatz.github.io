@@ -1887,5 +1887,37 @@
     },
     "exclusiveSold": false,
     "licenseVersion": "v1"
+  },
+  {
+    "id": "E20-0070",
+    "name": "Thy Wings",
+    "slug": "thy-wings",
+    "status": "Live",
+    "featured": false,
+    "genre": "Trap",
+    "tags": [
+      "Hard Trap",
+      "rap",
+      "dark",
+      "kweku smoke",
+      "black sherif",
+      "arathejay",
+      "spiritual",
+      "wings","hope"
+    ],
+    "bpm": 84,
+    "key": "Cm",
+    "mood": "Dark","spiritual","hope",
+    "description": "Hard Trap, rap, dark beat, built for expressive vocals and a memorable record.",
+    "youtube": "https://youtu.be/a4UflSsX-lY",
+    "artwork": null,
+    "prices": {
+      "mp3": 150,
+      "wav": 300,
+      "trackout": 500,
+      "exclusive": 1500
+    },
+    "exclusiveSold": false,
+    "licenseVersion": "v1"
   }
 ]
